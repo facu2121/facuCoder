@@ -1,0 +1,74 @@
+// variables
+
+.bg-dark{
+	background-color: black
+}
+
+.bg-light{
+    background-color: white;
+}
+
+.bg-danger{
+    background-color: orange;
+}
+
+.bg-info{
+	background-image: linear-gradient(160deg, #094f8b 0%, #0044b2 100%);
+}
+
+
+
+.templateArea{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5vh 60vh 10vh;
+    grid-template-areas: 
+    "nav nav nav" 
+    "main main main" 
+    "footer footer footer";
+    
+}
+
+.linear-gradient:hover{
+	background: linear-gradient(160deg, #1c84c7 100%, #73b8ae 0%);
+	color: white;
+	cursor: pointer;
+}
+
+.formulario--grid{
+    display: grid;
+    justify-items: left;
+}
+
+.grid--general{
+	width: 99%;
+	display: grid;
+
+}
+
+.grid__nav{
+    grid-area: nav;
+}
+
+.grid__centro{
+    grid-area: main;
+}
+
+.grid__footer{
+    grid-area: footer;
+}
+
+.noticia--destacada{
+    background: deepskyblue;
+}
+
+.noticia_titulo--uppercase{
+    text-transform: uppercase;
+}
+
+.noticia_titulo--center{
+    text-align: center;
+}
+
+.noticia_texto--center{
+    text-align: center;
+}

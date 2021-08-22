@@ -1,0 +1,22 @@
+
+footer{
+    padding: 10px 40px;
+    background-color: #0063f2;
+    display: flex;
+    flex-direction: row;
+    li{
+        display: inline-block;
+        margin: 0 10px; 
+    }
+}   
+
+@each $icono in facebook, twitter, instagram{
+    .#{$icono}-icon{
+        background-image: url(../img/#{$icono}.svg);
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        list-style: none;
+    }
+
+}

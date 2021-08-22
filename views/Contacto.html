@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Soriano Seguridad</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="templateArea bg-info linear-gradient">
+        <nav class="grid__nav">
+            <a href="../Index.html">
+                <img src="../img/shield.png" alt="LogoTentativo">
+            </a>
+
+            <ul>
+                <li>
+                    <a href="../Index.html">Empresa</a>
+                </li>
+                
+                <li>
+                    <a href="Servicios.html">Servicios</a>
+                </li>
+
+                <li>
+                    <a href="PaquetesDeSeguridad.html">Paquetes de seguridad</a>
+                </li>
+
+                <li>
+                    <a href="Clientes.html">Clientes</a>
+                </li>
+
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="grid--general formulario--grid">
+        <main class="grid__centro">
+            <h3>Contacto</h3>
+
+            <form action="envio.php" method="post">
+            
+                <fieldset>
+                        <legend>Información de contacto</legend>
+                        
+                        <label for="Nombre"></label>
+                        <input type="text" name="Nombre" placeholder="Ingrese su nombre"> 
+                        <br>
+                        <label for="Teléfono"></label>
+                        <input type="num" name="Teléfono" placeholder="Ingrese su Teléfono">
+                        <br>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="email">
+                        <legend>Deseo recibir novedades de nuevas ofertas</legend>
+                        <input type="checkbox" name="Si" id="Si">
+                        <br>
+                
+                        <label for="">Comentarios</label>
+                        <br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <label for="">Te gusto la página?</label>
+                            <select name="respuesta" id="">
+                                <option value="Si">Si</option>
+                                <option value="No">No</option>
+                                <option value="Me da igual">Me da Igual</option>
+                            </select>
+                        <br>
+                        <input type="reset" value="Borrar">
+                        <input type="submit" value="Enviar">
+                </fieldset> <br>
+
+            </form>
+        </main>      
+    </div> 
+
+    <div class="grid--general templateArea">
+        <footer class="grid__footer">
+                <li class="facebook-icon"></li>
+                <li class="twitter-icon"></li>
+                <li class="instagram-icon"></li>
+        </footer>
+    </div>
+
+</body>
+</html> 
